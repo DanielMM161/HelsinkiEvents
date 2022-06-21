@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Helsinki Events</string>
+
+    <!-- Categories -->
+    <string name="yso_p965">Sport</string>
+    <string name="yso_p11185">Concerts</string>
+    <string name="yso_p1808">Music</string>
+    <string name="yso_p2851">Art</string>
+    <string name="yso_p2339">Technology</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home">Home"</string>
+    <string name="map">Map"</string>
+    <string name="favorites">Favorites"</string>
+
+</resources>
