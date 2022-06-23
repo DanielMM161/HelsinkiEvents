@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="categories_image">
+        <item>@drawable/run</item>
+        <item>@drawable/music</item>
+        <item>@drawable/nightlife</item>
+        <item>@drawable/computer</item>
+    </integer-array>
+</resources>
