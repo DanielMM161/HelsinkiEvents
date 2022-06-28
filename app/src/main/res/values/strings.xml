@@ -2,11 +2,6 @@
     <string name="app_name">Helsinki Events</string>
 
     <!-- Categories -->
-    <string name="category_sport">Sport</string>
-    <string name="category_music">Music</string>
-    <string name="category_science">Science</string>
-    <string name="category_technology">Technology</string>
-
     <string-array name="categories_name">
         <item>Sport</item>
         <item>Music</item>
@@ -14,9 +9,19 @@
         <item>Technology</item>
     </string-array>
 
+    <string-array name="categories_code">
+        <item>yso:p965</item>
+        <item>yso:p1808</item>
+        <item>yso:p2240</item>
+        <item>yso:p2339</item>
+    </string-array>
+    <!-- End Categories -->
+
     <!-- Bottom Navigation -->
     <string name="home">Home"</string>
     <string name="map">Map"</string>
     <string name="favorites">Favorites"</string>
+
+    <string name="view_all">View All"</string>
 
 </resources>

@@ -22,12 +22,13 @@ class HomeFragment : BaseFragment<HomeFragmentBinding>(
 
     private fun getCategoryList(): List<Category> {
         val categoryName = resources.getStringArray(R.array.categories_name)
+        val categoryCode = resources.getStringArray(R.array.categories_code)
         val categoryIcons = resources.obtainTypedArray(R.array.categories_image)
 
         return categoryName.mapIndexed { i, categoryName ->
             val drawable : Drawable? = categoryIcons.getDrawable(i)
             drawable.let {
-                Category(categoryName, it!!)
+                Category(categoryName, categoryCode[i], it!!)
             }
         }
     }

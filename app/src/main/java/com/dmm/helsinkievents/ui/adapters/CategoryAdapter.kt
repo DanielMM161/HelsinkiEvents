@@ -11,6 +11,10 @@ class CategoryAdapter ( private val categories: List<Category>) : RecyclerView.A
     inner class CategoryAdapterViewHolder(private val binding: ItemCategoriesBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(category: Category) {
            binding.category = category
+            //Changue
+           binding.layoutCategory.setOnClickListener {
+               binding.layoutCategory.isSelected = !binding.layoutCategory.isSelected
+           }
         }
     }
 
